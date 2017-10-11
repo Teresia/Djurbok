@@ -25,8 +25,10 @@ audio{
 
 
 .ingress{
-	margin-bottom: 32px;
+	margin-bottom: 24px;
 	color: #fff;
+	font-family:'Metal Mania', cursive;
+	font-size: 24px;
 }
 
 .animalsContainer{
@@ -48,12 +50,11 @@ audio{
 }
 
 .bandCard{
-	height: 300px;
+	height: 420px;
 }
 
 .animalCard:hover{
 	cursor: pointer;
-	border: 1px solid #FDD034;
 }
 
 
@@ -62,6 +63,8 @@ audio{
     height: 95vh;
     max-width: 800px;
 }
+
+
 .bigCard{
 	background-size: cover;
 	background-position: center;
@@ -69,6 +72,42 @@ audio{
 	height: 95vh;
 	border-radius: 4px;
 }
+
+.bigBandCardContainer{
+	width: 95vw;
+    height: 95vh;
+}
+
+
+.bigBandCard{
+	background-size: cover;
+	background-position: center;
+	height: 90vh;
+	border-radius: 4px;
+	width: 95vw;
+}
+
+.closeIcon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 32px;
+    opacity: 0.25;
+
+}
+
+.closeIcon:hover {
+	cursor: pointer;
+    opacity: 0.5;
+
+}
+
+.bigBandCard > .closeIcon{
+	color: white;
+}
+
+
+
 
 .modal-footer{
 	text-align: center !important;
@@ -82,7 +121,7 @@ audio{
 @media only screen and (max-width: 580px) {
 
 .animalsContainer{
-	width: 90%;
+	width: 98%;
 }
 
 .animalCard{
@@ -91,6 +130,14 @@ audio{
 
 .bandCard{
 	height: 200px;
+}
+
+.bigBandCard{
+	background-size: cover;
+	background-position: center;
+	height: 50vh;
+	border-radius: 4px;
+	width: 98vw;
 }
 
 }
